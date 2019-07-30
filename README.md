@@ -1,4 +1,4 @@
-# Anonymous project for CVPR 2019 submission #1037
+# Codes for paper: Central Similarity Hashing via Hadamard matrix
 
 We first release all codes and configurations for image hashing. Codes and configutations for video hashing will be released in the future.
 
