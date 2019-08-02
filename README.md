@@ -1,4 +1,4 @@
-# Codes for paper: Central Similarity Hashing via Hadamard matrix
+# Codes for paper: Central Similarity Hashing via Hadamard matrix, [arxiv](https://arxiv.org/abs/1908.00347)
 
 We first release all codes and configurations for image hashing. Codes and configutations for video hashing will be released in the future.
 
