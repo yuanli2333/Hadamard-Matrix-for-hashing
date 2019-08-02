@@ -17,6 +17,9 @@ Python 3.6
 2. Download MS COCO, ImageNet2012, NUS_WIDE in their official website: [COCO](http://cocodataset.org/#download), [ImageNet](http://image-net.org/download-images), [NUS_WIDE](https://lms.comp.nus.edu.sg/research/NUS-WIDE.htm). Unzip all data and put in 'data/dataset_name/'.
 
 
+## Hash center (target)
+Here, we put hash centers for imagenet we used in 'data/imagenet/hash_centers'. The methods to generate hash centers are given in the tutorial: [Tutorial_ hash_center_generation.ipynb](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing/blob/master/Tutorial_%20hash_center_generation.ipynb)
+
 
 ## Test
 
@@ -103,9 +106,3 @@ python train.py --data_name nus_wide --hash_bit 64 --gpus 0,1 --model_type resne
 
 
 
-
-
-
-
-## Hash Center
-Here, we put hash centers for imagenet we used in 'data/imagenet/hash_centers', we will release the algorithms for hash center generation in the future.
