@@ -1,6 +1,6 @@
 # Codes for paper: Central Similarity Hashing via Hadamard matrix, [arxiv](https://arxiv.org/abs/1908.00347)
 
-We first release all codes and configurations for image hashing. Codes and configutations for video hashing will be released in the future.
+We release all codes and configurations for image hashing. Codes and configutations for "Video Hashing" :fire: will be released in the future. 
 
 ## Prerequisties
 
@@ -22,7 +22,7 @@ Here, we put hash centers for imagenet we used in 'data/imagenet/hash_centers'. 
 
 
 
-## Update: AlexNet as backbone
+## :fire: Update: AlexNet as backbone. 
 Pretrained models of AlexNet are [here](https://drive.google.com/drive/folders/1oLN0jqmj07Yru39skaHbH8gVX2vfQj40?usp=sharing). Pre-trained models for COCO will be given in the future
 
 The MAP of retrieval on ImageNet and NUS_WIDE are shown in the following:
