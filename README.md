@@ -1,4 +1,4 @@
-# Codes for paper: Central Similarity Hashing via Hadamard matrix, [arxiv](https://arxiv.org/abs/1908.00347)
+# Codes for paper: Central Similarity Hashing for Efficient Image and Video Retrieval, [arxiv](https://arxiv.org/abs/1908.00347)
 
 We release all codes and configurations for image hashing. Codes and configutations for "Video Hashing" :fire: will be released in the future. 
 
