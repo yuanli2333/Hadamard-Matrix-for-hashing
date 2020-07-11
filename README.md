@@ -1,4 +1,4 @@
-# Codes for paper: Central Similarity Hashing for Efficient Image and Video Retrieval, [arxiv](https://arxiv.org/abs/1908.00347)
+# Codes for paper: Central Similarity Quantization for Efficient Image and Video Retrieval, [arxiv](https://arxiv.org/abs/1908.00347)
 
 We release all codes and configurations for image hashing. Codes and configutations for "Video Hashing" :fire: will be released in the future. 
 
@@ -154,6 +154,19 @@ python train.py --data_name nus_wide --hash_bit 64 --gpus 0,1 --model_type resne
 ```
 
 
+
+
+### Reference
+If you find this repo useful, please consider citing:
+```
+@inproceedings{yuan2020central,
+  title={Central Similarity Quantization for Efficient Image and Video Retrieval},
+  author={Yuan, Li and Wang, Tao and Zhang, Xiaopeng and Tay, Francis EH and Jie, Zequn and Liu, Wei and Feng, Jiashi},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3083--3092},
+  year={2020}
+}
+```
 
 
 
