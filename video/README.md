@@ -1,7 +1,9 @@
 ### The codes of video hashing are based on the [MFNet](https://github.com/cypw/PyTorch-MFNet)
 
-### Prepare dataset: 
+### Prepare dataset and 3D pretrained models: 
 Download the UCF101 and HMDB51 datasets, put the videos in dataset/UCF101/raw/data/ and dataset/HMDB51/raw/data/, please refer details on [MFNet](https://github.com/cypw/PyTorch-MFNet). 
+
+Download the pretrained models on classification in [here](https://drive.google.com/file/d/1mz7Zh0ufQICStxsXzen6FWiZod-cH850/view?usp=sharing), unzip it and put in 'network/pretrained'.
 
 ### Train
 
