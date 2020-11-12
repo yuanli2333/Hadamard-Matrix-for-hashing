@@ -22,51 +22,7 @@ Here, we put hash centers for imagenet we used in 'data/imagenet/hash_centers'. 
 
 
 
-## :fire: Update: AlexNet as backbone. 
-Pretrained models of AlexNet are [here](https://drive.google.com/drive/folders/1oLN0jqmj07Yru39skaHbH8gVX2vfQj40?usp=sharing). Pre-trained models for COCO will be given in the future
-
-The MAP of retrieval on ImageNet and NUS_WIDE are shown in the following:
-
-| Dataset  | MAP(16bit) | MAP(32bit) | MAP(64bit)|
-| :---     |    :---:   |    :---:   |   ---:    |
-| ImageNet |    0.601   |    0.653   |   0.695   |
-| NUS_WIDE |    0.744   |    0.785   |   0.789   |
-
-Train on ImageNet, 16bit
-
-```
-python train.py --data_name imagenet --hash_bit 16 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 1000 --eval_frequency 1 --lr 0.0001
-```
-
-Train on ImageNet, 32bit
-
-```
-python train.py --data_name imagenet --hash_bit 32 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 1000 --eval_frequency 1 --lr 0.0001
-```
-
-Train on ImageNet, 64bit
-
-```
-python train.py --data_name imagenet --hash_bit 64 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.0001  --R 1000 --eval_frequency 1 --lr 0.0001
-```
-
-
-Train on NUS_WIDE, 16bit
-```
-python train.py --data_name nus_wide --hash_bit 16 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 5000 --eval_frequency 1 --lr 0.0001
-```
-
-
-Train on NUS_WIDE, 32bit
-```
-python train.py --data_name nus_wide --hash_bit 32 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 5000 --eval_frequency 1 --lr 0.0001
-
-```
-
-Train on NUS_WIDE, 64bit
-```
-python train.py --data_name nus_wide --hash_bit 64 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 5000 --eval_frequency 1 --lr 0.0001
-```
+## Update: Video hashing has been updated in [here](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing/tree/master/video)
 
 
 
@@ -151,6 +107,54 @@ Trained model will be saved in 'data/nus_wide/models/'
 
 ```
 python train.py --data_name nus_wide --hash_bit 64 --gpus 0,1 --model_type resnet50 --lambda1 0  --lambda2 0.05  --multi_lr 0.05 --R 5000
+```
+
+
+
+## AlexNet as backbone. 
+Pretrained models of AlexNet are [here](https://drive.google.com/drive/folders/1oLN0jqmj07Yru39skaHbH8gVX2vfQj40?usp=sharing). Pre-trained models for COCO will be given in the future
+
+The MAP of retrieval on ImageNet and NUS_WIDE are shown in the following:
+
+| Dataset  | MAP(16bit) | MAP(32bit) | MAP(64bit)|
+| :---     |    :---:   |    :---:   |   ---:    |
+| ImageNet |    0.601   |    0.653   |   0.695   |
+| NUS_WIDE |    0.744   |    0.785   |   0.789   |
+
+Train on ImageNet, 16bit
+
+```
+python train.py --data_name imagenet --hash_bit 16 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 1000 --eval_frequency 1 --lr 0.0001
+```
+
+Train on ImageNet, 32bit
+
+```
+python train.py --data_name imagenet --hash_bit 32 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 1000 --eval_frequency 1 --lr 0.0001
+```
+
+Train on ImageNet, 64bit
+
+```
+python train.py --data_name imagenet --hash_bit 64 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.0001  --R 1000 --eval_frequency 1 --lr 0.0001
+```
+
+
+Train on NUS_WIDE, 16bit
+```
+python train.py --data_name nus_wide --hash_bit 16 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 5000 --eval_frequency 1 --lr 0.0001
+```
+
+
+Train on NUS_WIDE, 32bit
+```
+python train.py --data_name nus_wide --hash_bit 32 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 5000 --eval_frequency 1 --lr 0.0001
+
+```
+
+Train on NUS_WIDE, 64bit
+```
+python train.py --data_name nus_wide --hash_bit 64 --gpus 2 --model_type Alexnet --lambda1 0  --lambda2 0.001  --R 5000 --eval_frequency 1 --lr 0.0001
 ```
 
 
