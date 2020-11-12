@@ -1,6 +1,8 @@
 # Codes for paper: Central Similarity Quantization for Efficient Image and Video Retrieval, [arxiv](https://arxiv.org/abs/1908.00347)
 
-We release all codes and configurations for image hashing. Codes and configutations for "Video Hashing" :fire: will be released in the future. 
+We release all codes and configurations for image hashing. 
+
+Update: Video hashing has been updated in [here](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing/tree/master/video)
 
 ## Prerequisties
 
@@ -19,11 +21,6 @@ Python 3.6
 
 ## Hash center (target)
 Here, we put hash centers for imagenet we used in 'data/imagenet/hash_centers'. The methods to generate hash centers are given in the tutorial: [Tutorial_ hash_center_generation.ipynb](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing/blob/master/Tutorial_%20hash_center_generation.ipynb)
-
-
-
-## Update: Video hashing has been updated in [here](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing/tree/master/video)
-
 
 
 ## Test
