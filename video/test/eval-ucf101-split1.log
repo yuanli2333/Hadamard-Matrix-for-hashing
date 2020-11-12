@@ -1,0 +1,20 @@
+2018-10-24 21:53:26 INFO: Start evaluation with args:
+{
+    "batch_size": 8,
+    "clip_length": 16,
+    "dataset": "UCF101",
+    "debug_mode": true,
+    "frame_interval": 2,
+    "gpus": 1,
+    "load_epoch": 0,
+    "log_file": "./eval-ucf101-split1.log",
+    "model_dir": "./",
+    "model_prefix": "./../exps/<your_tesk_name>",
+    "network": "mfnet_3d",
+    "task_name": "../exps/<your_tesk_name>"
+}
+2018-10-24 21:53:27 DEBUG: Target dataset: 'UCF101', configs: {'num_classes': 101}
+2018-10-24 21:53:27 INFO: Network:: graph initialized, use random inilization!
+2018-10-24 21:53:27 DEBUG: loading network configs of: MFNET_3D
+2018-10-24 21:53:27 INFO: Preprocessing:: using MXNet default mean & std.
+2018-10-24 21:53:27 INFO: data:: {'mean': [0.48627450980392156, 0.4588235294117647, 0.40784313725490196], 'std': [0.23482446870963955, 0.23482446870963955, 0.23482446870963955]}
