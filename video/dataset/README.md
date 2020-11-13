@@ -70,25 +70,6 @@ Please organize this folder as follow:
 │   └── scripts
 │       ├── convert_list.py
 │       └── resave_videos.py
-├── __init__.py
-├── Kinetics
-│   ├── raw
-│   │   ├── data -> ../../../../DATA/Kinetics/raw/data
-│   │   │   ├── test
-│   │   │   ├── train
-│   │   │   └── val
-│   │   └── list_cvt
-│   │       ├── kinetics_test.txt
-│   │       ├── kinetics_test_avi.txt
-│   │       ├── kinetics_train.txt
-│   │       ├── kinetics_train_avi.txt
-│   │       ├── kinetics_val.txt
-│   │       ├── kinetics_val_avi.txt
-│   │       └── mapping_table.txt
-│   └── scripts
-│       ├── convert_video.py
-│       └── remove_spaces.py
-├── README.md
 └── UCF101
     └── raw
         ├── data -> ../../../../DATA/UCF101/raw/data
