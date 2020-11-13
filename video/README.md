@@ -9,12 +9,12 @@ Download the pretrained models on classification in [here](https://drive.google.
 
 On UCF101:
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train_ucf101.py
+python train_ucf101.py --batch-size 32 --gpus 0,1
 ```
 
 On HMDB51:
 ```
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train_hmdb51.py
+python train_hmdb51.py --batch-size 32 --gpus 0,1
 ```
 
 ### Test
