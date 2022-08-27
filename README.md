@@ -25,7 +25,7 @@ Here, we put hash centers for imagenet we used in 'data/imagenet/hash_centers'. 
 
 ## Test
 
-Pretrained models are [here](https://drive.google.com/drive/folders/1HFLDfPvSrVITCFwolcQ3arym4PTODMHQ?usp=sharing)
+Pretrained models are [Google Drive](https://drive.google.com/drive/folders/1HFLDfPvSrVITCFwolcQ3arym4PTODMHQ?usp=sharing), or you can directly download it from the [release](https://github.com/yuanli2333/Hadamard-Matrix-for-hashing/releases/download/checkpoints/pretrained_models_anonymous_projects-20220212T034728Z-001.zip).
 
 
 It will take a long time to generate hash codes for database, because of the large-scale data size for database
