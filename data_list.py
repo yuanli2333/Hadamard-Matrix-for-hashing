@@ -9,6 +9,9 @@ import torch.utils.data as data
 import os
 import os.path
 
+# HashCenterDataset lives in hash_center.dataset — import it from there directly
+# e.g.  from hash_center import HashCenterDataset
+
 def make_dataset(image_list, labels):
     if labels:  # labels=None for imagenet
       len_ = len(image_list)
@@ -97,3 +100,6 @@ class ImageList(object):
     def __len__(self):
         return len(self.imgs)
 
+
+# Module exports
+__all__ = ['ImageList', 'HashCenterDataset', 'make_dataset', 'default_loader', 'pil_loader']
